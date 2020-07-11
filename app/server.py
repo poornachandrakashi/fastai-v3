@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/file/d/1Yw24Mf7dx7zqmETg3pjBGiDCLqbpBL2E/view?usp=sharing'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1Yw24Mf7dx7zqmETg3pjBGiDCLqbpBL2E'
 export_file_name = 'plant.pkl'
 
 classes = ['Apple___Apple_scab',
